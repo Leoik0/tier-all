@@ -92,7 +92,7 @@ const App = () => {
 
   return (
     <DndProvider backend={HTML5Backend}>
-      <div className="h-screen w-7xl  mx-auto flex flex-col justify-evenly items-center ">
+      <div className="min-h-screen h-full w-7xl  gap-4 mx-auto flex flex-col justify-evenly items-center ">
         <h1>Tier All</h1>
         <TierListContainer
           tiers={tiers}
